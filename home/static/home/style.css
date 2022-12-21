@@ -1,9 +1,22 @@
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'bitbit';
+}
+
+
+
 body {
     background: white url("images/background.png") no-repeat;
     background-position: center;
-    background-size: 10%;
-    height: 500px;
-    border-top: 10px solid #ccc;
+    background-size: cover;
+    height: 700px;
+    border-top: 0px solid #ccc;
 }
 title{
     color: #c80;

@@ -1,7 +1,10 @@
 body {
     background: white url("images/background.png") no-repeat;
-    background-position: right bottom;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    border-top: 0px solid #ccc;
 }
 li a {
-    color: green;
+    color: white;
 }

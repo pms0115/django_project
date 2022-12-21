@@ -14,8 +14,11 @@ type="text/css">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'blog/style.css' %}">
     <title>Title</title>
+
 </head>
 <body>
+
+
 <div class="page-header">
 {% if user.is_authenticated %}
     <a href="{% url 'blog:post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
@@ -31,6 +34,22 @@ type="text/css">
         </div>
     </div>
 </div>
+
+<div style="text-align:left"><span style="color:black;">
+    이동하기...
+</span></div>
+
+    <a href="/">
+      <button type="button" class="btn btn-light">Main</button>
+    </a>
+
+   <a href="/polls/">
+      <button type="button" class="btn btn-light">Polls</button>
+    </a>
+
+   <a href="/bookmark/">
+      <button type="button" class="btn btn-light">Bookmark</button>
+    </a>
 
 
 </body>
